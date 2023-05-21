@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главное меню</title>
+</head>
+<link rel="stylesheet" href="style/style.css">
+<body>
+
+	<div class="game">
+		<div class="character">
+			<p>Имя: <span id="name"></span></p>
+			<p>Деньги: <span id="money"></span></p>
+			<p>Статус: <span id="status"></span></p>
+			<p>Здоровье: <span id="health"></span></p>
+			<p>Местоположение: <span id="gps"></span></p>
+		</div>
+		<div class="img"></div>
+	</div>
+
+	<div class="action actionInTown">
+		<button onclick="inHospital()">Посетить Госпиталь</button>
+		<button onclick="inTavern()">Зайти в таверну</button>
+		<button>Сходить на рынок</button>
+		<button>Выйти из города	</button>
+	</div>
+
+	<div class="action actionInTavern">
+		<button onclick="eat()">Поесть</button>
+		<button onclick="drink()">Выпить</button>
+		<button onclick="inHouse()">Снять комнату</button>
+		<button>Поговорить с посетителями таверны</button>
+		<button onclick="inTown()">Выйти из таверны</button>
+	</div>
+	
+
+
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>

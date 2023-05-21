@@ -1,0 +1,186 @@
+*{
+	margin: 0;					/*отступ*/
+	font-family: sans-serif;	/*шрифт*/
+	text-decoration: none;		/*декораций НЕТ*/
+}
+
+
+
+.sale{
+	background: red;			/*задний фон*/
+	display: flex;				
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 250px;		/*отсьтуп*/
+}
+.sale p{
+	color: white;				/*цвет*/
+	text-transform: uppercase; 	/*заглавные буквы*/
+	font-weight: 700;			/*жирность шрифта*/
+}
+.sale button{
+		border-radius: 5px;		/**/
+		font-weight: 700;		/*жирность шрифта*/
+		padding: 10px 35px;		/*отсьтуп*/
+		background: white;		/*задний фон*/
+		border: none;			/*граница*/
+		font-size: 16px;		/**/
+}
+.hat{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 250px;		/*жирность шрифта*/
+	border: #000 2px solid;		
+	position: sticky;			/*див прилипнит вверх*/
+	top:0;						/*вверх*/
+	background: white;			/*задний фон*/
+	z-index: 9999999999999999999999999999999999999999999999;
+
+}
+.hat a{
+	transition: 0.3s;			/**/
+}
+.hat a:hover{
+	transform: scale(1.2);		/**/
+}
+.hat img{
+	height: 50px;				/**/
+}
+.hat_links{
+	display: flex;
+	justify-content: space-between;
+	width:60% ;					/**/
+}
+.hat_links a{
+	color: black;			/*цвет*/
+	font-size: 20px;		/**/
+}
+.hat_cont{
+	display: flex;
+	justify-content: space-between;
+	width: 7%;				/**/
+}
+.hat_cont img{
+	height: 30px;			/**/
+}
+.promo{
+	height: 570px;			/**/
+	background: url(img/bg_prev.jpg); 			/**/
+	background-size: cover;			/**/
+	background-position: 50% 50%;			/**/
+}
+.promo a {
+	display: block;			/**/
+	width: 100%;			/**/
+	height: 100%;			/**/
+}
+.sub_promo{
+	background: url(img/bg_prev2.jpg);				/**/
+	height: 150px; 				/**/
+	background-position:50% 50% ;			/**/
+	background-size: cover;					/**/
+}
+.rec{
+	padding: 50px 250px;		/*жирность шрифта*/
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;				/*заглавные буквы*/
+}
+.rec_box{
+display: flex;
+justify-content: space-between;
+margin-top: 80px;							/**/
+}
+.rec_item{
+	background: white;			/*задний фон*/
+	width:250px;				/**/
+	box-shadow: 0 0 10px gray;	/**/
+	padding: 20px;				/**/
+	border-radius: 10px;		/**/
+	text-align: center;			/**/
+	transition: 0.5s;			/**/
+}
+.rec_item:hover{
+	transform: scale(1.2);		/**/
+}
+.rec_item img{
+	height: 170px;				/**/
+}
+.rec_item h3{
+	text-transform: uppercase;	/**/
+	margin-top: 20px;			/**/
+}
+.rec_item .old_price{
+	font-size: 22px;		/**/
+	color:gray;				/*цвет*/
+	text-decoration: line-through;/**/
+	margin-top: 10px;		/**/
+}
+.rec_item .new_price{
+	font-size: 26px;		/**/
+	color:red;			/*цвет*/
+	margin-top: 10px;		/**/
+	font-weight: 700;		/**/
+}
+.rec_item button{
+	padding: 10px 40px;			/**/
+	color: red;					/*цвет*/
+	background:white;			/*задний фон*/
+	border:2px solid red;		/**/
+	border-radius: 5px;			/**/
+	margin-top: 20px;			/**/
+	font-size: 14px;			/**/
+	font-weight: 700px;			/**/
+	text-transform: uppercase;	/**/
+	cursor: no-drop;			/**/
+}
+.rec_item button:hover{
+	background: red;			/*задний фон*/
+	color:white;				/*цвет*/
+}
+
+.smi{
+	background: rgb(200,200,200);		/*задний фон*/
+	padding: 50px 200px;				/**/
+}
+.smi_box{
+	display: flex;						/**/
+	justify-content: space-between;		/**/
+}
+.smi_item{
+	width: 350px;						/**/
+	height: 250px;						/**/
+	background-color: white;			/**/
+	display: flex;						/**/
+	justify-content: center;			/**/
+	align-items: center;				/**/
+	text-align: center;					/**/
+	border-radius: 10px;				/**/
+	background-repeat: no-repeat;		/**/
+	background-position: 50% 50%;		/**/
+	transition: 0.5s;					/**/
+	color: rgba(0,0,0,0);				/*цвет*/
+}
+.smi_item:hover{
+	background-position: 50% 10%;		/**/
+	color: black;					/*цвет*/
+}
+.mania{
+	background-image:url(img/mania.png);		/**/
+}
+.sostav{
+	background-image:url(img/sostav.png);		/**/
+}
+.progamer{
+	background-image:url(img/progamer.png);		/**/
+}
+.footer{
+	height: 200px;								/**/
+	background: black;		/*задний фон*/			
+	display: flex;								/**/
+	justify-content: center;
+	align-items: center;						/**/
+	color: white;			/*цвет*/
+}

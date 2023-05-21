@@ -1,0 +1,63 @@
+a{
+
+	color: white;
+	text-decoration: none;
+	font-size: 22px;	
+
+}
+.hat{
+	background: black;
+	display: flex;
+	justify-content: space-between;	
+	padding-left: 300px;
+	padding-right: 300px;	
+	padding-top: 15px;	
+	padding-bottom: 15px;	
+}
+body{
+	margin: 0;
+}
+.promo{
+	height: 1250px;	
+background: url(bg.jpg);
+background-size: cover;
+background-position: 50% 65%;
+}
+.info{
+padding-left: 300px;
+padding-right: 300px;
+}
+h1{
+font-size: 40px;
+text-align: center;							
+}
+p{
+	font-size: 30px;
+	text-align:justify; 	;	
+}
+.potatoes{
+background: url(pot.jpg);
+background-size: cover;
+background-position: 50% 65%;
+
+}
+.bread{
+background: url(bread.jpg);
+background-size: cover;
+background-position: 50% 65%;
+}
+.cucumber{
+background: url(cucumber.jpg);
+background-size: cover;
+background-position: 50% 65%;	
+}
+
+
+
+
+
+
+
+
+
+
