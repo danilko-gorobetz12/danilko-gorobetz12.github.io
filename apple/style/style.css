@@ -1,0 +1,469 @@
+*{
+	margin: 0;					/*внешний отступ*/
+	font-family: sans-serif;	/*шрифт*/
+}
+hr{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color:gray;
+}
+.hat{
+	background-color:rgba(0,0,0,0.85);	/*цвет заднего фона*/
+	display: flex;				/*выравнивание содержимого*/
+	justify-content: space-between;	/*горизонтальное выравнивание*/
+	align-items: center;			/*вертикальное выравнивание*/
+	padding: 10px 200px;		/*внутр. отступ сверху-снизу и справа-слева*/
+	position: sticky;
+	top: 0px;
+	z-index: 9999;
+}
+.hat a{
+	color: white;				/*цвет букв*/
+	text-decoration: none;		/*убираем подчёркивания*/
+	font-size: 14px;			/*размер шрифта*/
+	opacity: 75%;				/*прозрачность*/
+	transition: 0.3s;			/*продолжительность изменений*/
+}
+.hat a:hover{					/*эффект при наведении мышкой*/
+	opacity: 100%;				/*прозрачность*/
+}
+.hat img{
+	height: 16px;				/*высота*/
+}
+.promo{
+	height: 600px;				/*Высота*/
+	text-align: center;			/*выравнивание текста*/
+	background-repeat: no-repeat;/*повторение заднего фона*/
+	background-position: 50% 50%;/*позиция заднего фона*/
+	background-size: cover;		/*размер заднего фона*/
+	padding-top: 40px;			/*внутренний отступ*/
+}
+.promo h2{
+	font-size: 48px;			/*размер шрифта*/
+}
+.promo p{
+	font-size: 24px;			/*размер шрифта*/
+	margin-bottom: 10px;		/*внешний отступ снизу*/
+}
+.promo a{
+	text-decoration: none;		/*убрать подчёркивание*/
+	font-size: 20px;			/*размер шрифта*/
+	color: #0066cc;				/*цвет шрифта*/
+}
+.promo a:hover{					/*эффект при наведении мышкой*/
+	text-decoration: underline;	/*подчёркивание*/
+}
+.iphone13pro{
+	background-image: url(img/iphone13.jpg);	/*картинка на заднем фоне*/
+}
+.iphone13{
+	background-image: url(img/hero_iphone.jpg);	/*картинка на заднем фоне*/
+}
+.iphone13 h2{
+	color: white;				/*цвет текста*/
+}
+.iphone13 p{
+	color: #fec2eb;				/*цвет текста*/
+}
+.watch{
+	background-image: url(img/apple_watch.jpg);
+}
+
+.promo_container{
+	display: flex;
+}
+.promo_little{
+	width: 50%;
+}
+.macbook{
+	background-image: url(img/macbookpro.jpg);
+}
+.ipad{
+	background-image: url(img/promo_ipad.jpg);
+	color: white;
+}
+.airpods{
+	background-image: url(img/airpods.jpg);
+}
+.airpods h2{
+	margin-top: 420px;
+}
+
+.fitness{
+	background-image: url(img/fitnes.jpg);
+}
+.music{
+	background-image: url(img/many-people.jpg);
+}
+.music h2 {
+	color: white;
+}
+.music p {
+	color: white;
+}
+.tv{
+	background-image: url(img/worker.jpg);
+}
+.tv h2{
+	margin-top: 420px;
+	color: white;
+}
+.tv p{
+	color: white;
+}
+.tv a{
+	color: white;
+}
+.text{
+	padding-top: 25px;
+	padding-bottom:25px;
+	padding-left: 250px;
+	padding-right: 250px;
+
+}
+.text p{
+	color: gray;
+	margin-top: 15px;
+}	
+.hat2{
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;			
+	padding: 15px 200px;
+	
+	background-color: black;
+}
+.hat2 a{
+	color: white;
+	text-decoration: none;
+}
+.hat2 a:hover{
+	text-decoration: underline;
+} 
+.store{
+background-color: black;
+position: fixed;
+height: 100%;
+width: 100%;
+text-align: center;
+color: white;
+padding-top: 100px;
+}
+.store video{
+	height: 35%;
+} 
+.store h1{
+	font-size: 40px;
+	margin-top: 30px;
+}
+.store p{
+	color: gray;
+	margin-top: 100px;
+}
+.mac_category{
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 200px;
+}
+.mac_category a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	transition: 0.4s;
+	display: block;
+	width: 100%;
+}
+.mac_category a:hover{
+	color: #0066cc;
+	transform: scale(1.4);
+}
+.mac_category a img{
+	height: 50px;
+}
+.accs{
+	background-image: url(img/aps.jpg);
+	margin :auto;
+	width: 80%;
+	margin-top: 50px;
+	border-radius: 10px;
+	height: 750px;
+	background-position: 50% 100%;
+	background-size: 100%;
+	background-color: rgb(242,242,242);
+}
+.delivery{
+	width: 18%;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.delivery h4{
+	font-size: 22px;
+}
+.delivery p{
+	font-style: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.delivery a{
+	font-style: 16px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #0066cc;
+}
+.strong {
+	margin: auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.strong h2{
+	margin-top: 50px;
+}
+.maceasy{
+	background-image: url(img/why_mac1.jpg);
+	background-size: contain;
+}
+.maсleft{
+	background-image: url(img/why_mac2.jpg);
+	background-size: contain;
+}
+.opportunities{
+	background-image: url(img/mac/son.png);
+	margin: auto;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.opportunities h2{
+	font-size: 10px;
+	color: white;
+	margin-bottom: 15px;
+}
+.opportunities h3{
+	font-size: 30px;
+	color: white;
+	margin-bottom: 15px;
+	
+}
+.opportunities a{
+	color: white;
+	text-decoration: none;
+}
+.opportunities_links{
+}
+.proges h2{
+	font-size: 30px;
+}
+.proges p{
+	margin-top:15px ;
+}
+.proges{
+	padding: 50px 400px;
+	text-align: center;
+	background-color: rgba(251,251,253,1);
+}
+.proges_links{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px ;
+}
+.proges_links a{
+	text-decoration: none;
+	color: black;
+}
+.final h2{
+	font-size: 30px;
+}
+.final p{
+	margin-top: 15px;
+}
+.final{
+	padding: 50px 400px;
+	text-align: center;
+	background-color: rgba(251,251,253,1);	
+}
+.final_links{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px ;
+}
+.final_links a{
+	text-decoration: none;
+	color: black;
+}
+.appstore {
+	background-repeat: no-repeat;
+	padding: 50px 300px;
+	padding-bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	background-color: rgba(251,251,253,1);	
+}
+a.aps{
+	text-decoration: none;
+	display: block;
+	margin: auto;
+	width: 300px;
+	text-align: center;
+	color: #0066cc;
+}
+.cont{
+	padding: 15px 300px ;
+	background-color: rgba(251,251,253,1);	
+	text-align: center;
+}
+.cont p{
+	margin-bottom: 15px;
+}
+.cont a{
+	text-decoration: none;
+	color: #0066cc;
+}
+.conto{
+	padding: 15px 300px ;
+	background-color: rgba(251,251,253,1);	
+	text-align: center;
+}
+.conto a{
+	text-decoration: none;
+	color: #0066cc;
+}
+.conto p{
+	margin-bottom: 15px;
+}
+.dse{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+	font-size:64px ;
+}
+.one{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 200px;
+	background-color: rgba(251,251,253,1);
+}
+.one_content h3{
+	font-size: 28px;
+}
+.one_content a{
+	text-decoration: none;
+	color: #0066cc;
+}
+.one_content{
+	text-align: center;
+}
+.one_links{
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+	margin: auto;
+	margin-top: 15px;
+}
+.one_links a{
+	font-size: 18px;
+}
+.supp_promo {
+	background-image: url(img/mac/house.jpg);
+	background-repeat: no-repeat;
+	height: 450px;
+	background-size: cover;
+	background-position: 50% 50%;
+	padding-top: 150px;
+}
+.supp_promo h1{
+	font-size: 48px;
+	color: white;
+	text-align: center;
+}
+.supp_category{
+	background-color: white;
+	padding-left:350px ;
+	padding-right:350px ;
+	font-size: 17px;
+    background-color: white;
+}
+.support img{
+	height: 40px;
+	width: 40px;
+}
+.support a{
+	color: #0066cc;
+	text-decoration:none;
+	text-align: center;
+}
+.support a:hover{
+	text-decoration: underline;
+}
+.support{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.support hr{
+	height: 80px;
+}
+.fafori{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 175px;	
+	padding-right: 175px;
+}
+.fafori p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: gray;
+}
+.fafori a{
+	color: #0066cc;
+	text-decoration: none;
+}
+.fafori img{
+	height: 130px;
+	display: block;
+	margin: auto;
+}
+.ssups {
+	text-align: left;
+	margin-top: 100px;
+	background-image: url(img/mac/scar.jpg);
+	height: 250px;
+	padding-top: 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 250px;
+}
+.ssups h2{
+	color: white;
+	font-size: 40px;
+}
+.ssups p{
+	margin-top: 15px;
+	color: white;
+	font-size: 17px;
+}
+.ssups a{
+	color:#0066cc;
+	display: block;
+	text-decoration: none;
+	margin-top: 15px;
+	font-size: 17px;
+}
